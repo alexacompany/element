@@ -1,0 +1,594 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hello, world!</title>
+</head>
+<body>
+<div class="navigation">
+    <div class="navWrap d-flex">
+        <nav class="nav">
+            <div class="wrapContentLeft d-flex align-items-center">
+                <a href="#" class="text-dark">
+                    <picture style="font-size: 24px;font-weight: 500;">
+                        <source srcset="./img/logoSmall.png" media="(max-width: 768px)">
+                        <source srcset="./img/logoSmall@2x.png">
+                        <img class="mb-1 mr-2" srcset="./img/logoSmall@2x.png" alt="logo" style="width: 32px;height: 32px;">共享器
+                    </picture>
+                </a>
+                <div class="menu">
+                    <a href="#" class="active ml-5">Articles</a>
+                    <a href="#" class="ml-5">Manual</a>
+                    <a href="#" class="ml-5">Contacts</a>
+                </div>
+            </div>
+
+            <div class="wrapContentRight d-flex">
+                <div class="text-right mr-3">
+                    <p class="mb-0" style="font-size:16px;color:#292622;;">Start your free trial today</p>
+                    <ul class="d-flex mb-0"
+                        style="font-size:11px;color: #7a7a7a;list-style: none">
+                        <li class="ml-1">7-day Trial</li>
+                        <li class="ml-1">• Easy to use</li>
+                        <li class="ml-1">• Cancel anytime</li>
+                    </ul>
+                </div>
+                <form>
+                    <div class="input-group mx-auto mx-sm-auto mx-md-auto mx-lg-0 mx-xl-0" style="width: 300px;">
+                        <input type="text" class="form-control"
+                               style="
+                       border: 1px solid #b8b8b8;
+                       height: 40px;
+                       border-top-left-radius: 6px;
+                       border-bottom-left-radius: 6px" placeholder="输入邮箱"
+                               aria-label="输入邮箱" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn text-light"
+                                    style="
+                            background-color:#a33ba3;
+                            height: 40px;
+                            border-top-right-radius: 6px;
+                            border-bottom-right-radius: 6px;" type="button" id="button-addon2">
+                                开始使用
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="nav__content">
+                <div class="nav__list">
+                    <div class="nav__list-item">
+                        <div class="menu">
+                            <a href="#" class="active">Articles</a>
+                            <a href="#">Manual</a>
+                            <a href="#">Contacts</a>
+                        </div>
+                    </div>
+                    <div class="nav__list-item">
+                        <div class="text-left mb-2">
+                            <p class="mb-0" style="font-size:16px;color:#292622;;">Start your free trial today</p>
+                            <ul class="d-flex mb-0 text-left pl-0"
+                                style="font-size:11px;color: #7a7a7a;list-style: none">
+                                <li class="ml-1">7-day Trial</li>
+                                <li class="ml-1">• Easy to use</li>
+                                <li class="ml-1">• Cancel anytime</li>
+                            </ul>
+                        </div>
+                        <form>
+                            <div class="input-group" style="width: 300px;">
+                                <input type="text" class="form-control"
+                                       style="
+                       border: 1px solid #b8b8b8;
+                       height: 40px;
+                       border-top-left-radius: 6px;
+                       border-bottom-left-radius: 6px" placeholder="输入邮箱"
+                                       aria-label="输入邮箱" aria-describedby="button-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn text-light"
+                                            style="
+                            background-color:#a33ba3;
+                            height: 40px;
+                            border-top-right-radius: 6px;
+                            border-bottom-right-radius: 6px;" type="button" id="button-addon2">
+                                        开始使用
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--<div class="menu-icon">-->
+        <!--<span class="menu-icon__line menu-icon__line-left"></span>-->
+        <!--<span class="menu-icon__line"></span>-->
+        <!--<span class="menu-icon__line menu-icon__line-right"></span>-->
+    <!--</div>-->
+    <div class="menu-icon">
+        <span></span>
+    </div>
+</div>
+<!--<nav class="navbar navbar-expand-lg navbar-light">-->
+    <!--<div class="navbar-header">-->
+        <!--<a href="#" class="navbar-brand text-dark">-->
+            <!--<picture style="font-size: 24px;font-weight: 500;">-->
+                <!--<source srcset="./img/logoSmall.png" media="(max-width: 768px)">-->
+                <!--<source srcset="./img/logoSmall@2x.png">-->
+                <!--<img class="mb-1 mr-2" srcset="./img/logoSmall@2x.png" alt="logo" style="width: 32px;height: 32px;">共享器-->
+            <!--</picture>-->
+        <!--</a>-->
+    <!--</div>-->
+    <!--<button class="navbar-toggler" style="border: 1px solid #b8b8b8" type="button" data-toggle="collapse"-->
+            <!--data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"-->
+            <!--aria-label="Toggle navigation">-->
+        <!--<span class="navbar-toggler-icon"></span>-->
+    <!--</button>-->
+    <!--<div class="collapse navbar-collapse justify-content-md-center justify-content-lg-end justify-content-xl-end py-4 py-sm-4 py-md-4 py-lg-0 py-xl-0"-->
+         <!--id="navbarSupportedContent">-->
+        <!--<div class="mr-md-5 mr-lg-3 mr-xl-3 float-md-none float-lg-left float-xl-left">-->
+            <!--<p class="mb-sm-3 mb-md-3 mb-lg-0 mb-xl-0 text-center text-sm-center text-md-left text-lg-right text-xl-right"-->
+               <!--style="font-size:16px;color:#292622;;">Start your free trial today</p>-->
+            <!--<ul class="nav navbar-nav dots mb-3 mb-sm-3 mb-md-3 mb-lg-0 text-center text-sm-center text-md-left text-lg-right text-xl-right"-->
+                <!--style="font-size:11px;color: #7a7a7a">-->
+                <!--<li>7-day Trial</li>-->
+                <!--<li>Easy to use</li>-->
+                <!--<li>Cancel anytime</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+        <!--<form>-->
+            <!--<div class="input-group mx-auto mx-sm-auto mx-md-auto mx-lg-0 mx-xl-0" style="width: 300px;">-->
+                <!--<input type="text" class="form-control"-->
+                       <!--style="-->
+                       <!--border: 1px solid #b8b8b8;-->
+                       <!--height: 40px;-->
+                       <!--border-top-left-radius: 6px;-->
+                       <!--border-bottom-left-radius: 6px" placeholder="输入邮箱"-->
+                       <!--aria-label="输入邮箱" aria-describedby="button-addon2">-->
+                <!--<div class="input-group-append">-->
+                    <!--<button class="btn text-light"-->
+                            <!--style="-->
+                            <!--background-color:#a33ba3;-->
+                            <!--height: 40px;-->
+                            <!--border-top-right-radius: 6px;-->
+                            <!--border-bottom-right-radius: 6px;" type="button" id="button-addon2">-->
+                        <!--开始使用-->
+                    <!--</button>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</form>-->
+    <!--</div>-->
+<!--</nav>-->
+
+<!--headSection-->
+<header class="headSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-10 mx-auto headImg text-center pt-5"
+                 style="">
+                <h1 class="title d-block">How to reset Android phone remotely</h1>
+                <div class="wrapImg d-flex justify-content-center align-items-center mb-0">
+                    <picture>
+                        <source srcset="./img/avatarImage.png" media="(max-width: 768px)">
+                        <source srcset="./img/avatarImage@2x.png">
+                        <img srcset="./img/avatarImage@2x.png" alt="logo" style="width: 36px;height: 36px;">
+                    </picture>
+                    <span class="textName text-uppercase">Olga Weis</span>
+                    <span class="textDate text-uppercase">16 May, 2018</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--mainSection-->
+<section class="mainSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-7 m-auto">
+                <div class="wrapMain">
+                    <h2 class="title">How to reset Android phone remotely</h2>
+                    <p class="text">Factory Reset Protection is a part of Device Protection, a feature added by Google
+                        in March 2015 for Android devices with 5.1 and later versions. If your phone has this feature
+                        enabled – most probably it does – you can factory reset an Android phone only under the login
+                        credentials you used when the device was new.</p>
+                    <p class="text">This functionality is basically meant to keep thieves off your phone – even if
+                        someone gets hold of it, they won’t be able to wipe it clean and sell it off without knowing
+                        your login credentials.</p>
+                    <p class="purple">However, as it is always the case with security features, Factory Reset Protection
+                        can become either your best friend or your greatest enemy.</p>
+                    <p class="text">Considering the number of accounts, passwords and PINs we use every day, it is
+                        highly possible that one day you might just forget what Google account you used when setting up
+                        your phone.</p>
+                    <p class="text space">Or, say, you bought a used phone and the previous user did not remove google
+                        account from Android. What do you do then? How to remove a google account from Android? Is there
+                        a way to bypass Google account verification?</p>
+                    <h2 class="title">How to bypass FRP?</h2>
+                    <p class="text space">Not everyone is ready to spend precious time waiting for the technician to
+                        come over and unlock the phone. <span>The modern market deals</span> with that problem offering
+                        a number of services that will remove FRP from your Android device remotely.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--cardSection-->
+<section class="cardSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-10 mx-auto wrapCard">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center">
+                        <h3 class="title">Method 1: Simplest way to get help with Android phone reset</h3>
+                    </div>
+                </div>
+                <div class="lineTop"></div>
+
+                <div class="row justify-content-between contentAll pl-0 pl-sm-0 pl-md-0 pl-lg-4 pl-xl-4">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 contentLeft pl-2 pl-sm-2 pl-md-2 pl-lg-5 pl-xl-5">
+                        <picture>
+                            <source srcset="./img/logoLarge.png" media="(max-width: 768px)">
+                            <source srcset="./img/logoLarge@2x.png">
+                            <img srcset="./img/logoLarge@2x.png" alt="logo" style="width: 128px;height: 128px;">
+                        </picture>
+                        <div class="wrapText">
+                            <h3 class="title mb-2">ProductName #1</h3>
+                            <p class="text pr-2">Share USB over IP network and access remote USB and serial devices
+                                from anywhere!</p>
+                            <p class="text opacityText pr-2">The easiest way will be to use ProductName, an app that lets
+                                you access and share remote USB devices over IP. Figure out how to share scanner
+                                between two computers with ProductName help.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 text-center pr-0 pl-0 pl-sm-0 pl-md-0">
+                        <picture>
+                            <source srcset="./img/tempateOneImage.png" media="(max-width: 768px)">
+                            <source srcset="./img/tempateOneImage@2x.png">
+                            <img class="tempateOneImage w-100 mw-100" srcset="./img/tempateOneImage@2x.png" alt="tempateOneImage" style="">
+                        </picture>
+                    </div>
+                </div>
+                <div class="row wrapForm mx-auto pl-sm-0 pl-md-0 pl-lg-5 pl-xl-5 mb-5">
+                    <div class="col-12 col-sm-12 col-md-12 col-xl-10 bgForm m-auto ml-lg-4 ml-xl-4">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pb-4 pb-sm-4 pb-md-4 pb-lg-0 pb-xl-0">
+                                <div class="wrapTextForm">
+                                    <p class="titleForm">Start your free trial Today</p>
+                                    <p class="subTitle">7-day Trial • Cancel anytime.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pb-4 pb-sm-4 pb-md-4 pb-lg-0 pb-xl-0">
+                                <form class="input-group">
+                                    <div class="input-group">
+                                        <input type="text" name="mail"
+                                               class="form-control col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 mb-3 mb-sm-3 mb-md-3 mb-lg-0 mb-xl-0"
+                                               placeholder="Your email address" aria-label="Your email address"
+                                               aria-describedby="button-addon"
+                                               style="
+                                               height: 48px;
+                                               border-top-left-radius: 6px;
+                                               border-bottom-left-radius: 6px">
+                                        <div class="input-group-append col-sm-12 col-md-12 col-lg-4 col-xl-4 px-0">
+                                            <button class="btn text-light w-100 px-1" type="submit"
+                                                    id="button-addon"
+                                                    style="
+                                                    background-color:#a33ba3;
+                                                    font-size:18px;
+                                                    height:48px;
+                                                    border-top-right-radius: 6px;
+                                                    border-bottom-right-radius: 6px;">Get started
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-auto pl-sm-0 pl-md-0 pl-lg-5 pl-xl-5 ">
+                    <div class="col-12 col-sm-12 col-md-12 col-xl-10 bgForm m-auto ml-lg-4 ml-xl-4">
+                        <div class="row d-flex">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+                                <div class="wrapStars">
+                                    <i class="fa fa-star text-white-50" aria-hidden="true"></i>
+                                    <i class="fa fa-star text-white-50" aria-hidden="true"></i>
+                                    <i class="fa fa-star text-white-50" aria-hidden="true"></i>
+                                    <i class="fa fa-star text-white-50" aria-hidden="true"></i>
+                                    <i class="fa fa-star text-white-50" aria-hidden="true"></i>
+                                    <span class="text-white-50 ml-1" style="font-size:14px;font-family: HelveticaNeue;">4.5 rank based on 988 users</span>
+                                    <p class="text-white-50" style="font-size:14px;">Windows XP and later, OS X 10.9+, Ubuntu 14.04+, Android 4.0 and above.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 mt-3 mt-sm-3 mt-md-3 mt-lg-2 mt-xl-0">
+                                <p class="text-white-50" style="font-size:14px;">Already a ProductName user?
+                                    <span class="text-white ml-1" style="cursor: pointer;">Sign In →</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--serviceSection-->
+<section class="serviceSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-7 mx-auto">
+                <div class="wrapService">
+                    <h3 class="title">What do they do at service centers to factory reset Android phone remotely?</h3>
+                    <p class="text">Not everyone is ready to spend precious time waiting for the technician to come over and unlock the phone. <span>The modern market deals</span> with that problem offering a number of services that will remove FRP from your Android device remotely.</p>
+                    <div class="wrapDigits">
+                        <p class="purpleDigitOne">Choose the amount of connections and install a special software application – ProductName. Register an account by clicking ‘Sign up’ link. It is a normal registration procedure.</p>
+                        <p class="purpleDigitTwo">Launch ProductName and sign into account.</p>
+                        <p class="purpleDigitThree">You should install ProductName on remote computer, where the phone is physically attached, and local machine which will connect to the device.</p>
+                    </div>
+                    <p class="note"><span>Note:</span> ProductName is not the software solution to reset Google FRP. You need the help of Service Center, like SupportKing or the third-party software, to do it. ProductName is for remote access to devices only!</p>
+                    <p class="text">Once Android factory reset is done, the phone owner can login using his Google account credentials.</p>
+                    <p class="text last">If you want to know how to bypass FRP with a PC on Samsung devices, you should also know that it doesn’t differ from FRP Google Account removal on Lenovo, Asus, and HTC devices. Android factory reset protection can help a user set up his phone like it is new and use another account to work with the device.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row wrapForm mx-auto mb-4 mb-sm-4 mb-md-4 mb-lg-4 mb-xl-5">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-8 bgForm m-auto">
+                <div class="row d-flex align-items-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pb-4 pb-sm-4 pb-md-4 pb-lg-0 pb-xl-0">
+                        <div class="wrapTextForm">
+                            <p class="titleForm text-white">Start your free trial Today</p>
+                            <p class="subTitle text-white">7-day Trial • Cancel anytime.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pb-4 pb-sm-4 pb-md-4 pb-lg-0 pb-xl-0">
+                        <form class="input-group">
+                            <div class="input-group px-3 pr-lg-0 pr-xl-0">
+                                <input type="text" name="mail"
+                                       class="form-control col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 mb-3 mb-sm-3 mb-md-3 mb-lg-0 mb-xl-0"
+                                       placeholder="Your email address" aria-label="Your email address"
+                                       aria-describedby="button-addon3"
+                                       style="height: 48px;
+                                       border-top-left-radius: 6px;
+                                       border-bottom-left-radius: 6px">
+                                <div class="input-group-append col-sm-12 col-md-12 col-lg-5 col-xl-5 px-0">
+                                    <button class="btn text-light w-100 px-1" type="submit"
+                                            id="button-addon3"
+                                            style="
+                                            background-color:#a33ba3;
+                                            font-size:18px;
+                                            height: 48px;
+                                            border-top-right-radius: 6px;
+                                            border-bottom-right-radius: 6px;">Get started
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-7 mx-auto">
+                <div class="wrapService">
+                    <p class="text">Most of us would probably go to a service center to get this problem solved, and that is reasonable. This is because service centers’ specialists know how to bypass Google Account on the Android phone, but it means you have to take your device to them.</p>
+                    <p class="text">Remote debugging means that you use your local debugging tool to correct the defective code running on a remote machine.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--cardTwoSection-->
+<section class="cardTwoSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-10 mx-auto wrapCard">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center">
+                        <h3 class="title">Method 2: Simplest way to get help with Android phone reset</h3>
+                    </div>
+                </div>
+                <div class="lineTop"></div>
+                <div class="row justify-content-between contentAll pl-0 pl-sm-0 pl-md-0 pl-lg-4 pl-xl-4">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 contentLeft pl-2 pl-sm-2 pl-md-2 pl-lg-5 pl-xl-5">
+                        <div class="wrapText">
+                            <h3 class="title mb-2">ProductName #2</h3>
+                            <p class="text">Share USB over Ethernet for Windows</p>
+                            <p class="text opacityText">ProductName is a software that helps you access USB devices as if they were directly connected to your machine. The way it works is pretty similar to ProductName.</p>
+                            <button type="button" class="btn outlineBtn">Get in now</button>
+                            <div class="wrapStars">
+                                <i class="fa fa-star stars" aria-hidden="true"></i>
+                                <i class="fa fa-star stars" aria-hidden="true"></i>
+                                <i class="fa fa-star stars" aria-hidden="true"></i>
+                                <i class="fa fa-star stars" aria-hidden="true"></i>
+                                <i class="fa fa-star stars" aria-hidden="true"></i>
+                                <span class="textPurple ml-1" style="font-size:14px;">4.5 rank based on 988 users</span>
+                                <p class="textGray" style="font-size:14px;">Windows XP and later, OS X 10.9+, Ubuntu 14.04+, Android 4.0 and above.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 text-center pr-0 pl-0 pl-sm-0 pl-md-0">
+                        <picture>
+                            <source srcset="./img/tempateTwoImage.png" media="(max-width: 768px)">
+                            <source srcset="./img/tempateTwoImage@2x.png">
+                            <img class="tempateOneImage w-100 mw-100" srcset="./img/tempateTwoImage@2x.png" alt="tempateTwoImage">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--supportSection-->
+<section class="supportSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-7 mx-auto">
+                <div class="wrapSupport">
+                    <h3 class="title">What benefits can SupportKing offer you?</h3>
+                    <p class="text">Still would like to bypass FRP yourself? Here are some more specific steps to follow to remove Google account from phone</p>
+                    <div class="wrapDots pr-0 pr-sm-0 pr-md-0 pr-lg-5 pr-xl-5">
+                        <p class="purpleDot">Positive result is 100% guaranteed</p>
+                        <p class="purpleDot">You save your time</p>
+                        <p class="purpleDot pr-0 pr-sm-0 pr-md-0 pr-lg-5 pr-xl-5">Your phone data will remain intact, as the professionals do their job</p>
+                        <p class="purpleDot">An ideal option for those with little technical knowledge</p>
+                    </div>
+                    <h3 class="title">Cons</h3>
+                    <div class="wrapDots">
+                        <p class="purpleDot">If No Unlock - Money Back Guarantee</p>
+                        <p class="purpleDot">24/7 Live Chat - Lifetime Access</p>
+                        <p class="purpleDot">Warranty Protection</p>
+                    </div>
+                    <h3 class="title">Still would like to bypass FRP yourself? Here are some more specific steps to follow to remove Google account from phone:</h3>
+                    <p class="text last pr-0 pr-sm-0 pr-md-0 pr-lg-4 pr-xl-4">Well, there is a trick for certain phones – you need to launch settings from a USB-OTG cable/drive, do the factory reset in the Backup settings and clean up all data related to Google accounts. Do the reset again and Factory Reset Protection is bypassed successfully, now you can setup your device anew.</p>
+                    <h3 class="title titleLast">Related Articles</h3>
+                    <div class="wrapTextDots">
+                        <p class="purpleTextDot">If No Unlock - Money Back Guarantee</p>
+                        <p class="purpleTextDot">24/7 Live Chat - Lifetime Access</p>
+                        <p class="purpleTextDot">Warranty Protection</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--finalSection-->
+<section class="finalSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-10 mx-auto finalImg text-center">
+                <div class="row wrapForm mx-auto">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 bgForm m-auto">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 pb-4 pb-sm-4 pb-md-4 pb-lg-4 pb-xl-0">
+                                <div class="wrapTextForm text-left">
+                                    <p class="titleForm">Start your free trial Today</p>
+                                    <p class="subTitle">7-day Trial • Cancel anytime.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 pb-4 pb-sm-4 pb-md-4 pb-lg-0 pb-xl-0">
+                                <form class="input-group">
+                                    <div class="input-group d-flex">
+                                        <input type="text" name="mail"
+                                               class="form-control col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 mb-3 mb-sm-3 mb-md-3 mb-lg-0 mb-xl-0"
+                                               placeholder="Your email address" aria-label="Your email address"
+                                               aria-describedby="button-addon4"
+                                               style="height: 48px;
+                                               border-top-left-radius: 6px;
+                                               border-bottom-left-radius: 6px">
+                                        <div class="input-group-append col-sm-12 col-md-12 col-lg-5 col-xl-5 px-0">
+                                            <button class="btn text-light w-100 px-1" type="submit"
+                                                    id="button-addon4"
+                                                    style="
+                                                    background-color:#a33ba3;
+                                                    font-size:18px;
+                                                    height:48px;
+                                                    border-top-right-radius: 6px;
+                                                    border-bottom-right-radius: 6px;">Get started
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 mx-auto">
+                        <div class="signIn">
+                            <p class="text-white-50 mb-3" style="font-size:14px;">Already a ProductName user?
+                                <span class="text-white ml-1" style="cursor: pointer;">Sign In →</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--commentSection-->
+<section class="commentSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-10 mx-auto text-center">
+                <div id="disqus_thread"></div>
+                <script>
+
+                    /**
+                     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                    /*
+                    var disqus_config = function () {
+                    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+                    */
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://element-rd.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footerSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mx-auto text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-inline">
+                            <ul class="d-flex justify-content-center mb-3 mr-0 mr-sm-0 mr-md-0 mr-lg-0 mr-xl-5 pl-0" style="list-style: none">
+                                <li class="mx-2 link">价格</li>
+                                <li class="mx-2 link">联系我们</li>
+                                <li class="mx-2 link">下载</li>
+                                <li class="mx-2 link">合作伙伴</li>
+                            </ul>
+                        </div>
+                        <div class="col-10 col-sm-10 col-md-7 col-lg-5 col-xl-5 line mx-auto pl-0 pl-sm-0 pl-md-0 pl-lg-0 pl-xl-5"></div>
+                        <div class="col-12">
+                            <div class="row ml-0 ml-sm-0 ml-md-0 ml-lg-3 ml-xl-3">
+                                <ul class="d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-end justify-content-xl-end pt-3 pr-0 pl-0 pl-sm-0 pl-md-0 pl-lg-0 pl-xl-3 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" style="list-style: none">
+                                    <li class="mx-2 link">© 2014–2018 共享器</li>
+                                    <li class="mx-2 link">隐私政策</li>
+                                </ul>
+                                <ul class="d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-start justify-content-xl-start pt-3 pl-0 pr-0 pr-sm-0 pr-md-0 pr-lg-0 pr-xl-3 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" style="list-style: none">
+                                    <li class="mx-2 link">手册</li>
+                                    <li class="mx-2 link">服务条款</li>
+                                    <li class="mx-2 link">卸载</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
